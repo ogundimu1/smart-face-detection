@@ -93,7 +93,7 @@ class App extends Component {
         this.state.input )
          .then(response => {   
           if(response){
-          fetch('https://stark-plateau-04291.herokuapp.com/image', {
+          fetch('wsss://stark-plateau-04291.herokuapp.com/image', {
               method: 'put',
               headers:{'Content-Type': 'application/json'},
               body:JSON.stringify({
